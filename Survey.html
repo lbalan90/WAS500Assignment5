@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: "Lato", sans-serif;
+        }
+
+        .sidenav {
+            width: 180px;
+            position: fixed;
+        }
+
+        .sidenav a {
+            padding: 6px;
+            text-decoration: none;
+            font-size: 25px;
+            color: Blue;
+            display: block;
+        }
+
+        .main {
+            margin-left: 180px;
+            font-size: 28px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="sidenav">
+        <a href="Home Page.html">Home Page</a>
+        <a href="Books.html">Books</a>
+        <a href="Contact Us.html">Contact Us</a>
+        <a href="Survey.html">Survey</a>
+    </div>
+
+    <div class="main">
+        <form>
+            <p>
+            <h2>Name:<input type="name" name="name" /></h2>
+            </p>
+            <h2><label for="birthday">Birthday:</label>
+                <input type="date" id="birthday" name="birthday">
+            </h2>
+            <h2>How likely is it that you recommend this library to your friends?
+                Very Likely<input type="radio" name="status" value="Very Likely" />
+                Somewhat Likely<input type="radio" name="status" value="Somewhat Likely" />
+                Not Likely<input type="radio" name="status" value="Not Likely" />
+            </h2>
+
+            <p>
+                <input type="submit" value="Submit" />
+            </p>
+        </form>
+    </div>
+
+</body>
+
+</html>
